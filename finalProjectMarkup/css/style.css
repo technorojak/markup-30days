@@ -1,0 +1,76 @@
+.container_24{
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+}
+
+header h1{
+	text-align: left;
+	float: left;
+}
+
+nav ul{
+	text-align: right;
+}
+
+li{
+	display: inline;
+}
+
+nav a{
+	text-decoration: none;
+	color: #28824c;
+}
+
+nav a:hover{
+	color: #13c85b;
+}
+
+.banner{
+	background: url(../img/bg_new_710x231.jpg) no-repeat;
+	height: 231px;	
+	clear: both;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+.callout{
+	background: #1b1d1b;
+	height: 231px;
+	margin-left: 10px;
+	/*width: 210px;
+	margin-left: 40px;*/
+}
+
+.main{
+	margin-top: 20px;
+}
+
+.main h1{
+	padding-bottom: 20px;
+	border-bottom: 2px ridge #e3e3e3;/*#bab9b9;*/
+}
+
+section{
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+
+.quote{
+	margin-left: 15px;
+}
+
+.button{
+	background: #535351;
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+}
+
+blockquote{
+	text-align: right;
+}
+blockquote:after{
+	content: "Collis Ta'eed";
+}
